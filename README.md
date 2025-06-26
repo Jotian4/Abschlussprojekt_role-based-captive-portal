@@ -1,5 +1,5 @@
 
-# 📡 CaptivePortalRB – Captive Portal mit rollenbasierter Zugriffskontrolle
+# CaptivePortalRB – Captive Portal mit rollenbasierter Zugriffskontrolle
 
 ## 🧩 Projektbeschreibung
 
