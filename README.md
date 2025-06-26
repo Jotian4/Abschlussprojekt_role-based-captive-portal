@@ -95,7 +95,7 @@ sudo python3 app/app.py
 
 Das Projekt war technisch anspruchsvoller als erwartet. Viele Probleme entstanden durch Konflikte zwischen Tools, doppelte IP-Zuweisungen und Rechteprobleme bei der Skriptausführung. Besonders lehrreich waren die Themen: Netzwerkaufbau unter Linux, systematisches Debugging, iptables-Regeln dynamisch setzen, und der Umgang mit unvollständiger Dokumentation. Auch wenn nicht alles am Ende funktionierte, war der Lerneffekt enorm.
 
-## © Autor
+## Autor
 
 **Joris Brunold**  
 Lehrfirma: Netcloud  
