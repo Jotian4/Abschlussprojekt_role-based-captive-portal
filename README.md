@@ -3,7 +3,7 @@
 
 ## 🧩 Projektbeschreibung
 
-Dieses Projekt implementiert ein Captive Portal auf einem Raspberry Pi (alternativ in einer virtuellen Maschine), das Nutzern nach dem Verbinden mit einem offenen WLAN eine Loginseite präsentiert. Nach erfolgreichem Login wird – abhängig von der gewählten Rolle (Kind, Teenager, Erwachsener) – der Internetzugang differenziert freigeschaltet.
+Dieses Projekt implementiert ein Captive Portal auf einem Raspberry Pi, das Nutzern nach dem Verbinden mit einem offenen WLAN eine Loginseite präsentiert. Nach erfolgreichem Login wird – abhängig von der gewählten Rolle (Kind, Teenager, Erwachsener) – der Internetzugang differenziert freigeschaltet.
 
 Das Projekt vereint Linux-Netzwerktechnik, Firewall-Logik (iptables), Python-Entwicklung mit Flask sowie Datenbankanbindung via SQLite. Ziel ist ein kontrolliertes, lokal gesteuertes Netzwerkgateway, das sich flexibel anpassen lässt.
 
