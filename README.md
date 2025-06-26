@@ -30,16 +30,13 @@ Das Projekt vereint Linux-Netzwerktechnik, Firewall-Logik (iptables), Python-Ent
 ```
 CaptivePortalRB/
 ├── app/                      # Flask Webserver mit Loginseite
-│   ├── app.py
-│   ├── templates/
-│   └── static/
+│   ├── app.py  
 ├── scripts/                  # Bash-Skripte für iptables-Rollenzuweisung
 │   └── set-role.sh
 ├── data/                     # SQLite Datenbank
 │   └── clients.db
 ├── config/                   # hostapd, dnsmasq, openNDS Configs
 ├── README.md
-└── setup.sh                  # Automatisches Setup-Skript (optional)
 ```
 
 ## 🚀 Setup-Anleitung (Kurzfassung)
