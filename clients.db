@@ -1,0 +1,27 @@
+import sqlite3
+import os
+
+DB_PATH = "/home/joris/portal/clients.db"
+
+# Alte DB löschen (falls vorhanden)
+if os.path.exists(DB_PATH):
+    os.remove(DB_PATH)
+    print("⚠️ Alte DB gelöscht.")
+
+# Neue DB anlegen
+conn = sqlite3.connect(DB_PATH)
+c = conn.cursor()
+
+c.execute("""
+CREATE TABLE clients (
+    mac TEXT PRIMARY KEY,
+    name TEXT,
+    rolle TEXT,
+    ip TEXT,
+    login_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+""")
+
+conn.commit()
+conn.close()
+print("✅ Neue clients.db erfolgreich erstellt.")
